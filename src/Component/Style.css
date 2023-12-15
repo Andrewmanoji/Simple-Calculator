@@ -1,0 +1,79 @@
+/* src/Calculator.css */
+body {
+  background-image: url(./calci.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calculator {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 190px;
+  margin-left: 100px;
+}
+
+.display {
+  background-color: #f0f0f0b5;
+  padding: 10px;
+  text-align: right;
+  font-size: 30px;
+  height: 80px;
+  margin-bottom: 30px;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.input {
+  color: #333;
+}
+
+.result {
+  color: #777;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: rgba(15, 96, 121, 0.82);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+button:active {
+  background-color: #1d7baa;
+}
+form {
+  background-color: #cbd6ded1;
+  padding-top: 10px;
+  width: 360px;
+  height: 520px;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.CALCULATOR {
+  text-align: center;
+  color: rgb(241, 226, 208);
+  text-shadow: 8px 0px 10px orangered;
+}
